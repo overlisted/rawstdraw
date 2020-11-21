@@ -13,9 +13,6 @@ edition = "2018"
 links = "rawdraw"
 build = "build.rs"
 
-[build]
-rustcflags = ["-C", "link-args=-lX11 -lm -lpthread -lXinerama -lXext -lGL -g"]
-
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
