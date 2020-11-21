@@ -17,3 +17,4 @@ mut_static = "5.0.0"
 
 [build-dependencies]
 cc = "1.0.65"
+target-lexicon = "0.11.1"
