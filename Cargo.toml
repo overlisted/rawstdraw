@@ -1,6 +1,7 @@
 [package]
 name = "rawstdraw"
 version = "0.1.0"
+description = "Rust bindings for rawdraw"
 license = "GPL-3.0-or-later"
 authors = ["Ilya Maximov <mail@overlisted.net>"]
 edition = "2018"
