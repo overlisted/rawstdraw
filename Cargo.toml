@@ -1,7 +1,12 @@
 [package]
 name = "rawstdraw"
-version = "0.1.0"
+version = "0.1.1"
 description = "Rust bindings for rawdraw"
+repository = "https://github.com/overlisted/rawstdraw"
+readme = "README.md"
+license-file = "COPYING"
+keywords = ["ffi", "rawdraw", "multiplatform"]
+categories = ["api-bindings", "graphics", "rendering"]
 license = "GPL-3.0-or-later"
 authors = ["Ilya Maximov <mail@overlisted.net>"]
 edition = "2018"
