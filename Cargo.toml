@@ -3,9 +3,17 @@ name = "rawstdraw"
 version = "0.1.0"
 authors = ["Ilya Maximov <mail@overlisted.net>"]
 edition = "2018"
+links = "rawdraw"
+build = "build.rs"
+
+[build]
+rustcflags = ["-C", "link-args=-lX11 -lm -lpthread -lXinerama -lXext -lGL -g"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 lazy_static = "1.4.0"
 mut_static = "5.0.0"
+
+[build-dependencies]
+cc = "1.0.65"

@@ -18,6 +18,7 @@ impl App for NoOpApp {
     fn handle_destroy(&self) {}
 }
 
+#[link(name="rawdraw", kind="static")]
 extern "C" {
     pub static mut CNFGPenX: u32;
     pub static mut CNFGPenY: u32;
