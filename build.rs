@@ -15,6 +15,7 @@ fn main() {
 
     let libs = match triple.operating_system {
         OperatingSystem::Linux => vec!["X11", "m", "pthread", "Xinerama", "Xext", "GL"],
+        OperatingSystem::Windows => vec!["gdi32"],
         _ => panic!("Unsupported target operating system!")
     };
         
